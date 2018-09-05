@@ -8,7 +8,7 @@ bot.on('Prêt', function() {
     console.log("Connecté !");
 });
 
-bot.login("Met ton token (:");
+bot.login(process.env.TOKEN);
 
 
 bot.on('message', message => {
